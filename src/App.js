@@ -12,7 +12,7 @@ export default class App extends Component {
   }
 
   componentDidMount() {
-    fetch('https://tarsen99.github.io/tabs-react/src/data.json')
+    fetch('https://tarsen99.github.io/tabs-react/data.json')
       .then((response) => response.json())
       .then(data => this.setState({tabsArray: data}));
   }
