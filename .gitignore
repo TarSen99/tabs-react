@@ -11,8 +11,10 @@
 
 # production
 /public
-/src
-
+/build
+package-lock.json
+data.json
+_congig.yml
 # misc
 .DS_Store
 .env.local
